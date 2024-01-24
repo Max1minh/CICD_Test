@@ -26,13 +26,13 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: "12.x"
+          java-version: "11"
           cache: 'gradle'
       # 10 - Adjusts to the Flutter version you are working with   
       - uses: subosito/flutter-action@v2
         with:
           # 11 - Runs a single command using the runner’s shell
-          flutter-version: "3.16.8"
+          flutter-version: "3.7.7"
           channel: 'stable'
           cache: true
       # 12
