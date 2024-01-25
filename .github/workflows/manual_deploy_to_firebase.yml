@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '12.x'
+          java-version: '8.x'
 
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
